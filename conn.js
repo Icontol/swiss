@@ -2498,6 +2498,7 @@ case 'stikermeme':
 case 'stickermeme':
 case 'memestiker':
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
+if (cekUser("premium", sender) == false && (!isOwner)) return reply(mess.OnlyPrem)
 var atas = q.split('|')[0]
 var bawah = q.split('|')[1]
 if (!atas) return reply(`Kirim gambar dengan caption ${prefix+command} text_atas|text_bawah atau balas gambar yang sudah dikirim`)
