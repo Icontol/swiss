@@ -1369,7 +1369,7 @@ sendContact(from, '6288802745958', 'raja tanpa kerajaan', msg)
 break
 case 'femi':{
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
-sendContact(from, '6282110124283', 'pelaku tagall', msg)
+sendContact(from, '6282110124283', 'lonte open bo', msg)
 }
 break
 case 'devi':{
