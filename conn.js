@@ -1355,43 +1355,6 @@ if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
 sendContact(from, '6281226512906', 'adit', msg)
 }
 break
-case 'pacarowner':{
-sendContact(from, '6283861331537',  'pacar owner<3', msg) 
-}
-break
-case 'ale':{
-sendContact(from, '6285694151182', 'orang diluar nalar', msg)
-}
-break
-case 'raja':{
-sendContact(from, '6288802745958', 'raja tanpa kerajaan', msg)
-}
-break
-case 'femi':{
-if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
-sendContact(from, '6282110124283', 'lonte open bo', msg)
-}
-break
-case 'devi':{
-sendContact(from, '6288279349436', 'wibu diluar nalar', msg)
-}
-break
-case 'lekha':{
-sendContact(from, '6283836434540', 'tai pedo', msg) 
-}
-break
-case 'sisil':{
-sendContact(from, '62895322454893', 'tersangka semua masalah', msg)
-}
-break
-case 'ompedo':{
-sendContact(from, '62895618141176', 'penyuka loli', msg)
-}
-break
-case 'andre':{
-sendContact(from, '6285239370659', 'admin spesies langka', msg)
-}
-break
 case 'room':{
 if (!isOwner) return reply(mess.OnlyOwner)
 var room =`*CHAT ANONYMOUS*\n\n*TOTAL ROOM : ${anonymous.length}*\n\n`
